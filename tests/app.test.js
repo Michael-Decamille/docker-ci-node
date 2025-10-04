@@ -1,4 +1,6 @@
-const request = require('supertest');
+const supertest = require('supertest');
+
+const request = supertest; // Assignation explicite pour éviter l'erreur no-undef
 const app = require('../index');
 
 describe('Test endpoint /', () => {

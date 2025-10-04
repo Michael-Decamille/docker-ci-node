@@ -17,11 +17,22 @@
     "winston": "^3.18.3"
   },
   "devDependencies": {
+    "@eslint/js": "^9.37.0",
     "eslint": "^9.37.0",
-    "eslint-config-airbnb-base": "^15.0.0",
-    "eslint-plugin-import": "^2.32.0",
-    "eslint-plugin-jest": "^28.14.0",
+    "eslint-plugin-jest": "^29.0.1",
+    "globals": "^16.4.0",
     "jest": "^30.2.0",
     "supertest": "^7.1.4"
-  }
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Michael-Decamille/docker-ci-node.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Michael-Decamille/docker-ci-node/issues"
+  },
+  "homepage": "https://github.com/Michael-Decamille/docker-ci-node#readme"
 }
